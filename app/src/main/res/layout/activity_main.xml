@@ -9,11 +9,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="145dp"
-        android:layout_height="97dp"
+        android:layout_width="217dp"
+        android:layout_height="73dp"
         android:text="Activity Main"
         android:textSize="30dp"
+        android:textColor="@color/purple_500"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="227dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

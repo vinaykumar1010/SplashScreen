@@ -6,9 +6,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.view.View;
 import android.view.Window;
-import android.view.WindowManager;
 
 
 public class SplashActivity extends Activity {
@@ -18,9 +16,11 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashfile);
+
+        // change status bar color
         if(Build.VERSION.SDK_INT>=21){
             window = this.getWindow();
-            window.setStatusBarColor(this.getResources().getColor(R.color.design_default_color_secondary_variant));
+            window.setStatusBarColor(this.getResources().getColor(R.color.material_on_surface_stroke));
         }
         splashScreen();
 
@@ -38,6 +38,6 @@ public class SplashActivity extends Activity {
                 startActivity(intent);
                 finish();
             }
-        },3000);
+        },2000);
     }
 }

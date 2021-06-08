@@ -10,11 +10,15 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/bullmastiff"
+        android:src="@drawable/silas_unsplash"
         android:adjustViewBounds="true"
         android:scaleType = "centerCrop"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp" >
+
+    </ImageView>
+
+
 
 </RelativeLayout>
