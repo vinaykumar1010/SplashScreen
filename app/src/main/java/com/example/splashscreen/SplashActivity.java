@@ -20,7 +20,7 @@ public class SplashActivity extends Activity {
         // change status bar color
         if(Build.VERSION.SDK_INT>=21){
             window = this.getWindow();
-            window.setStatusBarColor(this.getResources().getColor(R.color.material_on_surface_stroke));
+            window.setStatusBarColor(this.getResources().getColor(R.color.off_White));
         }
         splashScreen();
 
